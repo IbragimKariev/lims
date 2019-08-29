@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Gulp Sass/Scss Compiler </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
+    <link href="css/css.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
+</head>
+<body>
+<header>
+    <div class="leftMenu">
+        <div class="hamburger active">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="leftMenuList">
+            <li class="left-menu-items">
+                <i class="icon-home" aria-hidden="true"></i>
+                <div class="box">
+                    <a href="#" class="dropdown">
+                        <span>Гл.Страница</span><i class="icon-down-open"></i>
+                    </a>
+                    <ul class="dropdownlist">
+                        <li>
+                            <a href="#">
+                                <span>USERROLES</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>USERSANDSESSIONS</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>FUNCTIONDEFINISIONS</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>GENERALSETUP</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="left-menu-items">
+                <i class="icon-list-numbered" aria-hidden="true"></i>
+                <div class="box">
+                    <a href="#" class="dropdown">
+                        <span>Спаравочники</span><i class="icon-down-open"></i>
+                    </a>
+                    <ul class="dropdownlist">
+                        <li>
+                            <a href="#">
+                                <span>USERROLES</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>USERSANDSESSIONS</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>FUNCTIONDEFINISIONS</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>GENERALSETUP</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="left-menu-items">
+                <i class="icon-doc-text" aria-hidden="true"></i>
+                <div class="box">
+                    <a href="#" class="dropdown">
+                        <span>Рээстры</span><i class="icon-down-open"></i>
+                    </a>
+                    <ul class="dropdownlist">
+                        <li>
+                            <a href="#">
+                                <span>USERROLES</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>USERSANDSESSIONS</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>FUNCTIONDEFINISIONS</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>GENERALSETUP</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="left-menu-items">
+                <i class="icon-cog-alt" aria-hidden="true"></i>
+                <div class="box">
+                    <a href="#" class="dropdown">
+                        <span>Утилиты</span><i class="icon-down-open"></i>
+                    </a>
+                    <ul class="dropdownlist">
+                        <li>
+                            <a href="#">
+                                <span>USERROLES</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>USERSANDSESSIONS</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>FUNCTIONDEFINISIONS</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>GENERALSETUP</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="left-menu-items">
+                <i class="icon-check" aria-hidden="true"></i>
+                <div class="box">
+                    <a href="#" class="dropdown">
+                        <span>Результаты</span><i class="icon-down-open"></i>
+                    </a>
+                    <ul class="dropdownlist">
+                        <li>
+                            <a href="#">
+                                <span>USERROLES</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>USERSANDSESSIONS</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>FUNCTIONDEFINISIONS</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>GENERALSETUP</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="left-menu-items">
+                <i class="icon-envelope-open-o" aria-hidden="true"></i>
+                <div class="box">
+                    <a href="#" class="dropdown">
+                        <span>Сообщения</span><i class="icon-down-open"></i>
+                    </a>
+                    <ul class="dropdownlist">
+                        <li>
+                            <a href="#">
+                                <span>USERROLES</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>USERSANDSESSIONS</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>FUNCTIONDEFINISIONS</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>GENERALSETUP</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="left-menu-items">
+                <i class="icon-file-archive" aria-hidden="true"></i>
+                <div class="box">
+                    <a href="#" class="dropdown">
+                        <span>Архив</span><i class="icon-down-open"></i>
+                    </a>
+                    <ul class="dropdownlist">
+                        <li>
+                            <a href="#">
+                                <span>USERROLES</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>USERSANDSESSIONS</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>FUNCTIONDEFINISIONS</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>GENERALSETUP</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="container head">
+        <h3 class="user-name"><a href="">User Name</a></h3>
+        <h4 class="logout"><a href="">Logout</a></h4>
+    </div>
+
+</header>
+<main style="position: relative">
+
+    <section id="main" style="background-image: url(images/wp3157508-laboratory-wallpaper.jpg)">
+        <div class="container my-container">
+            <div class="metro-huge chat">
+                <i class="icon-envelope-open-o"></i>
+                <p>You have <b>3</b> unread messages.</p>
+                <br/>
+                <p><u>Click to view</u></p>
+                <span class="label bottom">Mail</span>
+            </div>
+
+            <div class="metro-big calendar">
+                <div class="icon-calendar"></div>
+                <span class="label bottom">Calendar</span>
+            </div>
+
+            <div class="metro-small store">
+                <div class="icon-store"></div>
+                <span class="label bottom">Store</span>
+            </div>
+
+
+            <div class="metro-big people ">
+                <div class="icon-people"></div>
+                <span class="label bottom">Личный кабинет</span>
+            </div>
+
+            <div class="metro-small chrome">
+                <div class="icon-chrome"></div>
+                <span class="label bottom">Chrome</span>
+            </div>
+
+
+            <div class="metro-big music">
+                <div class="icon-music"></div>
+                <span class="label bottom">Music</span>
+            </div>
+
+            <div class="metro-big games ">
+                <div class="icon-games"></div>
+                <span class="label bottom">Справочники</span>
+            </div>
+
+            <div class="metro-small twitter">
+                <div class="icon-twitter"></div>
+                <span class="label bottom">Рээстры</span>
+            </div>
+
+            <div class="metro-small fb">
+                <div class="icon-fb"></div>
+                <span class="label bottom">Утилиты</span>
+            </div>
+
+
+            <div class="metro-big ps">
+                <div class="icon-ps"></div>
+                <span class="label bottom">Склад</span>
+            </div>
+
+
+            <div class="space"></div>
+
+            <div class="metro-small bt">
+                <div class="icon-bt"></div>
+                <span class="label bottom">Bluetooth</span>
+            </div>
+
+            <div class="metro-small cc">
+                <div class="icon-cc"></div>
+                <span class="label bottom">CCleaner</span>
+            </div>
+
+            <div class="metro-big wmp ">
+                <div class="icon-wmp"></div>
+                <span class="label bottom">Windows Media Player</span>
+            </div>
+
+            <div class="metro-small tube">
+                <div class="icon-tube"></div>
+                <span class="label bottom">Youtube</span>
+            </div>
+
+            <div class="metro-big skype">
+                <div class="icon-skype"></div>
+                <span class="label bottom">Skype</span>
+            </div>
+
+
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="footer">
+        <div class="container">
+            <ul class="footer-ul">
+                <li><a href="">О нас</a></li>
+                <li><a href="">Наши филиалы</a></li>
+                <li><a href="">Справка</a></li>
+                <li><a href="">Страница жалоб и предложений</a></li>
+                <li style="margin-top: 15px"><a href="tel:+380985554433">+380985554433</a></li>
+                <li><a href="">lims@mail.ru</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="copyright">
+        <span>© Web-студия " Kadyrbek ", 2019</span>
+    </div>
+</footer>
+<script>
+
+    document.querySelector(".hamburger").onclick = function () {
+        var element = document.querySelector(".leftMenu");
+        element.classList.toggle("openMenu");
+
+        var hamburger = document.querySelector(".hamburger");
+        hamburger.classList.toggle("open");
+
+    }
+
+    var dropdown = document.getElementsByClassName('dropdown');
+    for (i = 0; i < dropdown.length; i++) {
+        dropdown[i].onclick = function () {
+            this.classList.toggle('active');
+        }
+
+    }
+
+
+</script>
+
+</body>
+</html>

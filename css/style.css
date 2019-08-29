@@ -43,7 +43,7 @@ input::-webkit-input-placeholder, input:-moz-placeholder, input::-moz-placeholde
 
 @font-face { font-family: 'Roboto'; src: url("../fonts/Roboto-Italic_1.eot"); src: url("../fonts/Roboto-Italic_1.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Italic_1.woff2") format("woff2"), url("../fonts/Roboto-Italic_1.woff") format("woff"), url("../fonts/Roboto-Italic_1.ttf") format("truetype"), url("../fonts/Roboto-Italic_1.svg#Roboto-Italic") format("svg"); font-weight: normal; font-style: italic; }
 
-@font-face { font-family: 'Roboto'; src: url("../fonts/Roboto-Bold.eot"); src: url("../fonts/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Bold.woff2") format("woff2"), url("../fonts/Roboto-Bold.woff") format("woff"), url("../fonts/Roboto-Bold.ttf") format("truetype"), url("../fonts/Roboto-Bold.svg#Roboto-Bold") format("svg"); font-weight: 700; font-style: normal; }
+@font-face { font-family: 'Roboto'; src: url("../fonts/Roboto-Bold.eot"); src: url("../fonts/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Bold.woff2") format("woff2"), url("../fonts/Roboto-Bold.woff") format("woff"), url("../fonts/Roboto-Bold.ttf") format("truetype"), url("../fonts/Roboto-Bold.svg#Roboto-Bold") format("svg"); font-weight: bold; font-style: normal; }
 
 @font-face { font-family: 'Roboto'; src: url("../fonts/../fonts/Roboto-Thin.eot"); src: url("../fonts/../fonts/Roboto-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/../fonts/Roboto-Thin.woff2") format("woff2"), url("../fonts/../fonts/Roboto-Thin.woff") format("woff"), url("../fonts/../fonts/Roboto-Thin.ttf") format("truetype"), url("../fonts/../fonts/Roboto-Thin.svg#Roboto-Thin") format("svg"); font-weight: 100; font-style: normal; }
 
@@ -67,145 +67,174 @@ input::-webkit-input-placeholder, input:-moz-placeholder, input::-moz-placeholde
 
 @font-face { font-family: 'Roboto'; src: url("../fonts/Roboto-Black_1.eot"); src: url("../fonts/Roboto-Black_1.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Black_1.woff2") format("woff2"), url("../fonts/Roboto-Black_1.woff") format("woff"), url("../fonts/Roboto-Black_1.ttf") format("truetype"), url("../fonts/Roboto-Black_1.svg#Roboto-Black") format("svg"); font-weight: 900; font-style: normal; }
 
-@font-face { font-family: 'fontello'; src: url("../fonts/fontello.eot?18713166"); src: url("../fonts/fontello.eot?18713166#iefix") format("embedded-opentype"), url("../fonts/fontello.woff2?18713166") format("woff2"), url("../fonts/fontello.woff?18713166") format("woff"), url("../fonts/fontello.ttf?18713166") format("truetype"), url("../fonts/fontello.svg?18713166#fontello") format("svg"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Roboto'; src: url("../fonts/Roboto-Medium_1.eot"); src: url("../fonts/Roboto-Medium_1.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Medium_1.woff2") format("woff2"), url("../fonts/Roboto-Medium_1.woff") format("woff"), url("../fonts/Roboto-Medium_1.ttf") format("truetype"), url("../fonts/Roboto-Medium_1.svg#Roboto-Medium") format("svg"); font-weight: 500; font-style: normal; }
 
-/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
-/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
-/*
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  @font-face {
-    font-family: 'fontello';
-    src: url('../font/fontello.svg?18713166#fontello') format('svg');
-  }
-}
-*/
+@font-face { font-family: 'fontello'; src: url("../fonts/fontello.eot?46386616"); src: url("../fonts/fontello.eot?46386616#iefix") format("embedded-opentype"), url("../fonts/fontello.woff2?46386616") format("woff2"), url("../fonts/fontello.woff?46386616") format("woff"), url("../fonts/fontello.ttf?46386616") format("truetype"), url("../fonts/fontello.svg?46386616#fontello") format("svg"); font-weight: normal; font-style: normal; }
+
 [class^="icon-"]:before, [class*=" icon-"]:before { font-family: "fontello"; font-style: normal; font-weight: normal; speak: none; display: inline-block; text-decoration: inherit; width: 1em; margin-right: .2em; text-align: center; /* opacity: .8; */ /* For safety - reset parent styles, that can break glyph codes*/ font-variant: normal; text-transform: none; /* fix buttons height, for twitter bootstrap */ line-height: 1em; /* Animation center compensation - margins should be symmetric */ /* remove if not needed */ margin-left: .2em; /* you can be more comfortable with increased icons size */ /* font-size: 120%; */ /* Font smoothing. That was taken from TWBS */ -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; /* Uncomment for 3D effect */ /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
 
-.icon-plus:before { content: '\e800'; }
+.icon-phone:before { content: '\e800'; }
 
 /* '' */
-.icon-minus:before { content: '\e801'; }
+.icon-location-outline:before { content: '\e801'; }
 
 /* '' */
-.icon-check:before { content: '\e802'; }
+.icon-calendar:before { content: '\e802'; }
 
 /* '' */
-.icon-cancel:before { content: '\e803'; }
+.icon-cog-alt:before { content: '\e803'; }
 
 /* '' */
-.icon-up-dir:before { content: '\e804'; }
+.icon-down-open:before { content: '\e804'; }
 
 /* '' */
+.icon-up-open:before { content: '\e805'; }
+
+/* '' */
+.icon-right-open:before { content: '\e806'; }
+
+/* '' */
+.icon-zoom-in:before { content: '\e807'; }
+
+/* '' */
+.icon-home:before { content: '\e808'; }
+
+/* '' */
+.icon-download:before { content: '\e809'; }
+
+/* '' */
+.icon-arrows-cw:before { content: '\e80a'; }
+
+/* '' */
+.icon-info-circled:before { content: '\e80b'; }
+
+/* '' */
+.icon-check:before { content: '\e80c'; }
+
+/* '' */
+.icon-doc:before { content: '\e80d'; }
+
+/* '' */
+.icon-folder-open:before { content: '\e80e'; }
+
+/* '' */
+.icon-folder:before { content: '\e80f'; }
+
+/* '' */
+.icon-login:before { content: '\e810'; }
+
+/* '' */
+.icon-logout:before { content: '\e811'; }
+
+/* '' */
+.icon-docs:before { content: '\f0c5'; }
+
+/* '' */
+.icon-list-numbered:before { content: '\f0cb'; }
+
+/* '' */
+.icon-doc-text:before { content: '\f0f6'; }
+
+/* '' */
+.icon-doc-inv:before { content: '\f15b'; }
+
+/* '' */
+.icon-file-archive:before { content: '\f1c6'; }
+
+/* '' */
+.icon-envelope-open-o:before { content: '\f2b7'; }
+
+/* '' */
 a { color: inherit; }
 
-a:hover { text-decoration: none; }
+a:hover { color: #b1b1b0; text-decoration: none; }
 
-img { width: 100%; }
+header { position: relative; width: 100%; height: 0; background: none; }
 
-header .head-container { display: flex; flex-direction: column; padding: 0; }
+header .head { height: 60px; display: flex; z-index: 999; justify-content: flex-end; align-items: flex-end; position: relative; border-bottom: 1px solid #ffffff; padding-right: 0; }
 
-header .head { display: flex; width: 100%; justify-content: space-around; height: 70px; padding: 0 25px 0 25px; }
+header .head .logout { z-index: 999; font-family: 'Roboto'; font-size: 18px; line-height: 30px; font-weight: 400; color: #ffffff; }
 
-header .head .logo { width: 50%; display: flex; align-items: center; }
+header .head .user-name { z-index: 999; font-family: 'Roboto'; font-size: 18px; line-height: 30px; font-weight: 400; color: #ffffff; margin-right: 30px; }
 
-header .head .logo h2 { font-family: 'Roboto'; font-size: 32px; }
+main #main { margin-top: -60px; background-repeat: no-repeat; background-position: center; background-size: cover; background-attachment: fixed; width: 100%; height: 108vh; position: relative; padding-top: 77px; }
 
-header .head .top-box { width: 50%; display: flex; justify-content: flex-end; align-items: center; }
+main #main:before { content: ""; width: 100%; height: 100%; position: absolute; top: 0; left: 0; background: rgba(0, 0, 0, 0.6); }
 
-header .head .top-box h2 { font-family: 'Roboto'; font-size: 22px; }
+main #main .my-container { display: flex; flex-wrap: wrap; padding: 100px 0 0 0; }
 
-header .under-head { background: #efefef; display: flex; width: 100%; }
+main #main .my-container .metro-big { margin: 0 10px 10px 0; position: relative; cursor: pointer; transition: all .4s ease; border: solid 2px transparent; }
 
-header .under-head .ul-menu { height: 60px; width: 1280px; display: flex; flex-direction: row; align-items: center; justify-content: space-around; }
+main #main .my-container .metro-big:hover { border: solid 2px #ffffff; box-shadow: 0px 0px 6px 4px rgba(53, 89, 100, 0.5); }
 
-header .under-head .ul-menu .items { display: flex; align-items: center; font-family: 'Roboto'; font-size: 18px; font-weight: 500; color: #37474f; }
+main #main .my-container .metro-big:active { transform: scale(0.98, 0.98); }
 
-header .under-head .ul-menu .items .btn-secondary.dropdown-toggle { background: inherit; border: 0; box-shadow: none; color: #37474f; }
+main #main .my-container .metro-small { margin: 0 10px 10px 0; position: relative; cursor: pointer; transition: all .4s ease; border: solid 2px transparent; }
 
-header .under-head .ul-menu .items .btn-secondary.dropdown-toggle:after { display: none; }
+main #main .my-container .metro-small:hover { border: solid 2px #ffffff; box-shadow: 0px 0px 6px 4px rgba(53, 89, 100, 0.5); }
 
-#main { background-size: cover; background-position: center; background-repeat: no-repeat; }
+main #main .my-container .metro-small:active { transform: scale(0.98, 0.98); }
 
-#main h1 { font-family: 'Roboto'; font-size: 22px; font-weight: 500; color: #37474f; margin: 20px 0 20px 0; }
+main #main .my-container .metro-huge { margin: 0 10px 10px 0; position: relative; cursor: pointer; transition: all .4s ease; border: solid 2px transparent; }
 
-#main .table-container { background: #ffffff; display: flex; flex-direction: column; position: relative; }
+main #main .my-container .metro-huge:hover { border: solid 2px #ffffff; box-shadow: 0px 0px 6px 4px rgba(53, 89, 100, 0.5); }
 
-#main .table-container .table { font-family: 'Roboto'; font-size: 16px; font-weight: 500; color: #37474f; }
+main #main .my-container .metro-huge:active { transform: scale(0.98, 0.98); }
 
-#main .table-container .tables .mini-forms { display: flex; }
+main #main .my-container .metro-huge { width: 200px; height: 200px; }
 
-#main .table-container .tables .mini-forms form { width: 90%; }
+main #main .my-container .metro-huge p { font-size: 13px; color: #ffffff; text-align: center; font-family: 'Roboto'; }
 
-#main .table-container .tables .mini-forms .checkboxbox { width: 15%; display: flex; align-items: center; justify-content: center; }
+main #main .my-container .metro-big { width: 200px; height: 95px; }
 
-#main .table-container .tables .mini-forms .checkboxbox h3 { font-family: 'Roboto'; font-size: 16px; font-weight: 500; color: #37474f; }
+main #main .my-container .metro-small { width: 95px; height: 95px; }
 
-#main .table-container .tables .mini-forms .checkboxbox .checkbox { -webkit-appearance: checkbox; width: 20px; height: 20px; margin-right: 5px; }
+main #main .my-container .space { margin-bottom: 10px; }
 
-#main .table-container .tables #form1 { max-width: 700px; padding: 2rem; box-sizing: border-box; }
+main #main .my-container .label { position: absolute; color: #ffffff; font-size: 16px; font-weight: 500; left: 10px; font-family: 'Roboto'; user-select: none; }
 
-#main .table-container .tables #form1 .form-field { display: flex; margin: 0 0 1rem 0; justify-content: center; align-items: center; font-family: 'Roboto'; font-weight: 400; font-size: 16px; }
+main #main .my-container .bottom { bottom: 5px; }
 
-#main .table-container .tables #form1 .form-field .checkbox { -webkit-appearance: checkbox; width: 20px; height: 20px; margin-left: 14%; }
+main #main .my-container .top { top: 5px; }
 
-#main .table-container .tables #form1 .form-field .checkbox-label { width: 50%; }
+main #main .my-container .chat { background: #d61300; }
 
-#main .table-container .tables #form1 label, #main .table-container .tables #form1 input { width: 70%; padding: 0.5rem; box-sizing: border-box; justify-content: space-between; font-size: 1.1rem; }
+main #main .my-container .calendar { background: #00a9ec; }
 
-#main .table-container .tables #form1 label { text-align: right; width: 30%; }
+main #main .my-container .store { background: #ff9000; }
 
-#main .table-container .tables #form1 input { border: 2px solid #aaa; border-radius: 2px; }
+main #main .my-container .people { background: #0e5d30; }
 
-#main .table-container .second-column { width: 40px; padding: 0; }
+main #main .my-container .chrome { background: #ce4e4e; }
 
-#main .left-content { padding: 10px; display: flex; width: 100%; }
+main #main .my-container .music { background: #5f5f5f; animation: flip 6s linear infinite; transform: rotateX(0deg); }
 
-#main .left-content .left-menu-items { display: flex; align-items: center; font-family: 'Roboto'; font-size: 18px; font-weight: 500; color: #37474f; }
+main #main .my-container .games { background: #34495e; }
 
-#main .right-content { width: 100%; padding: 10px; }
+main #main .my-container .twitter { background: #5ac6fa; }
 
-#main .right-content .box { width: 100%; height: 600px; }
+main #main .my-container .fb { background: #3b5998; }
 
-#main .main-container-editing { position: relative; background: #ffffff; height: 100%; padding-bottom: 100px; display: flex; flex-direction: column; }
+main #main .my-container .ps { background: #0c5fa1; }
 
-#main #form { max-width: 700px; padding: 2rem; box-sizing: border-box; }
+main #main .my-container .bt { background: #2546e9; }
 
-#main #form .form-field { display: flex; margin: 0 0 1rem 0; justify-content: center; align-items: center; font-family: 'Roboto'; font-weight: 400; font-size: 16px; }
+main #main .my-container .cc { background: #d61300; }
 
-#main #form .form-field .checkbox { -webkit-appearance: checkbox; width: 20px; height: 20px; margin-left: 14%; }
+main #main .my-container .wmp { background: #f68935; }
 
-#main #form .form-field .checkbox-label { width: 50%; }
+main #main .my-container .tube { background: #c8312b; }
 
-#main #form label, #main #form input { width: 70%; padding: 0.5rem; box-sizing: border-box; justify-content: space-between; font-size: 1.1rem; }
+main #main .my-container .skype { background: #19bfe5; }
 
-#main #form label { text-align: right; width: 30%; }
+footer .footer { width: 100%; padding-top: 30px; padding-bottom: 30px; background: #00838f; border-top: 1px solid #ffffff; position: relative; z-index: 99999; border-bottom: 1px solid #ffffff; }
 
-#main #form input { border: 2px solid #aaa; border-radius: 2px; }
+footer .footer .footer-ul { display: flex; flex-direction: column; }
 
-#main .form-box { width: 100%; display: flex; flex-direction: column; }
+footer .footer .footer-ul li { font-family: 'Roboto'; font-size: 18px; line-height: 20px; font-weight: 500; color: #ffffff; margin-top: 5px; }
 
-#main .icons { display: flex; }
+footer .copyright { width: 100%; height: 40px; background: #3a3a3a; z-index: 99999; display: flex; justify-content: center; align-items: center; position: relative; }
 
-#main .icons .client-icon { width: 74%; }
-
-#main .icons .change-icons { display: flex; width: 18%; }
-
-#main .icons .change-icons ul { display: flex; flex-direction: column; justify-content: flex-end; padding-bottom: 23%; }
-
-#main .buttons { display: flex; justify-content: center; }
-
-#main .buttons .buttons-client { background: #DCDCDC; height: 40px; width: 200px; margin: 0 20px 0 20px; display: flex; align-items: center; justify-content: center; border-radius: 3px; border: 1px solid #6c757d; font-family: 'Roboto'; font-weight: 400; font-size: 16px; }
-
-#main .instruments { display: flex; width: 100%; position: absolute; bottom: 0; }
-
-#main .instruments .instruments-ul { width: 100%; display: flex; justify-content: center; }
-
-#main .instruments .instruments-ul li { width: 15%; }
-
-#main .instruments .instruments-ul li .instrument { width: 100%; border: 1px solid #4e555b; height: 22px; }
-
-#main .instruments .instruments-ul li .instrument:hover { cursor: pointer; }
-
-footer .footer { height: 60px; display: flex; width: 100%; justify-content: center; align-items: center; background: #efefef; }
+footer .copyright span { font-family: 'Roboto'; font-size: 18px; line-height: 20px; font-weight: 500; color: #ffffff; }
 
 /*# sourceMappingURL=maps/style.css.map */
