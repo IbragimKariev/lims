@@ -385,6 +385,28 @@ background: none;
 }
 
 main {
+.options{
+  position: absolute;
+  display: flex;
+  width: 100%;
+  left: 0;
+  top: 95%;
+  z-index: 99999;
+  padding: 0 10% 0 10%;
+  height: 30px;
+  li{
+    width: 20%;
+    background: #00838f;
+    border: 1px solid #000000;
+    display: flex;
+    a{
+      align-items: center;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
 
   #main{
     margin-top: -60px;
