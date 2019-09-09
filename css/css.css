@@ -479,9 +479,10 @@ h1 {
 }
 
 .left-menu-items i {
-    font-size: 32px;
+    font-size: 28px;
     margin-right: 5px;
     font-family: 'Roboto';
+    margin-left: 4px;
 }
 
 .dropdownlist {
